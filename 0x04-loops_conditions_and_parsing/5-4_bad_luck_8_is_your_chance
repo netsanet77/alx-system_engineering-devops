@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+# bash script that loop from 1-10 and display "bad luck" for 4th iteration, "good luck" for 8th iteration and "Best School" for others.
+
+i=0
+
+while [ $i -lt 10 ]; do
+	if [ $i -eq 3 ]
+	then
+		echo "bad luck"
+	elif [ $i -eq 7 ]
+	then
+		echo "good luck"
+	else
+		echo "Best School"
+	fi
+	i=$((i + 1))
+done
+
+
