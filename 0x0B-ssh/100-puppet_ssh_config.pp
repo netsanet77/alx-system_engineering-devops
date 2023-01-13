@@ -1,4 +1,5 @@
 # client SSH configuration file to connect to a server without typing a password using puppet
+include stdlib
 
 file_line { 'no password authenciation':
   ensure  => present,
