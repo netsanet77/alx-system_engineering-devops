@@ -1,5 +1,0 @@
-# SSH configuration file for the local SSH client
-# to configured use private key in ~/.ssh/school and not use password to authenticate
-Host *
-    PasswordAuthentication no
-    IdentityFile ~/.ssh/school
